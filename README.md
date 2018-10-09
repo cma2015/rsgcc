@@ -13,4 +13,4 @@ install_github("cma2015/rsgcc")
 ```
 
 ## Citation
-[**Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis;**](http://www.plantphysiol.org/content/early/2012/07/13/pp.112.201962.short) Chuang Ma and Xiangfeng Wang, Plant Physiology, 2012, doi: https://doi.org/10.1104/pp.112.201962
+Ma, Chuang, and Xiangfeng Wang. "[**Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis.**](http://www.plantphysiol.org/content/early/2012/07/13/pp.112.201962.short)" Plant physiology (2012): pp-112.
