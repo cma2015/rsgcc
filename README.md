@@ -6,10 +6,25 @@
 This package provides functions for calculating associations between two genes with five correlation methods(e.g., the Gini correlation coefficient [GCC], the Pearson's product moment correlation coefficient [PCC], the Kendall tau rank correlation coefficient [KCC], the Spearman's rank correlation coefficient [SCC] and the Tukey's biweight correlation coefficient [BiWt], and three non-correlation methods (e.g., mutual information [MI] and the maximal information-based nonparametric exploration [MINE], and the euclidean distance [ED]). It can also been implemented to perform the correlation and clustering analysis of transcriptomic data profiled by microarray and RNA-Seq technologies. Additionally, this package can be further applied to construct gene co-expression networks (GCNs).</br>
 
 ## Installation ##
+- **Note:** This is a variant of original R package rsgcc(https://cran.r-project.org/web/packages/rsgcc/index.html) which does not provide GUI interface because the installation of dependency package "gWidgetsRGtk2" is not convenient for server users.
 ```R
 install.packages("devtools")
 library(devtools)
 install_github("cma2015/rsgcc")
+```
+- For users who would like to use GUI interface (windows)
+```R
+# install from cran
+install.packages("rsgcc")
+```
+- For users who would like to use GUI interface (ubuntu)
+```bash
+sudo apt-get install libgtk2.0-dev
+```
+```R
+install.packages("RGtk2")
+install.packages("gWidgetsRGtk2")
+install.packages("rsgcc")
 ```
 
 ## Citation
