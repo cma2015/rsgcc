@@ -5,9 +5,12 @@
 **Brief introduction:**
 This package provides functions for calculating associations between two genes with five correlation methods(e.g., the Gini correlation coefficient [GCC], the Pearson's product moment correlation coefficient [PCC], the Kendall tau rank correlation coefficient [KCC], the Spearman's rank correlation coefficient [SCC] and the Tukey's biweight correlation coefficient [BiWt], and three non-correlation methods (e.g., mutual information [MI] and the maximal information-based nonparametric exploration [MINE], and the euclidean distance [ED]). It can also been implemented to perform the correlation and clustering analysis of transcriptomic data profiled by microarray and RNA-Seq technologies. Additionally, this package can be further applied to construct gene co-expression networks (GCNs).</br>
 
-## installation ##
+## Installation ##
 ```R
 install.packages("devtools")
 library(devtools)
 install_github("cma2015/rsgcc")
 ```
+
+## Citation
+[**Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis;**](http://www.plantphysiol.org/content/early/2012/07/13/pp.112.201962.short) Chuang Ma and Xiangfeng Wang, Plant Physiology, 2012, doi: https://doi.org/10.1104/pp.112.201962
