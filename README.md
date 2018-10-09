@@ -26,6 +26,8 @@ install.packages("RGtk2")
 install.packages("gWidgetsRGtk2")
 install.packages("rsgcc")
 ```
+## How to use
+Please refer https://github.com/cma2015/rsgcc/blob/master/rsgcc.pdf for details about each function.
 
 ## Citation
 Ma, Chuang, and Xiangfeng Wang. "[**Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis.**](http://www.plantphysiol.org/content/early/2012/07/13/pp.112.201962.short)" Plant physiology (2012): pp-112.
