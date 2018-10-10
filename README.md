@@ -12,12 +12,12 @@ install.packages("devtools")
 library(devtools)
 install_github("cma2015/rsgcc")
 ```
-- For users who would like to use GUI interface (windows)
+- For users who would like to use GUI interface (**Windows system**)
 ```R
 # install from cran
 install.packages("rsgcc")
 ```
-- For users who would like to use GUI interface (ubuntu)
+- For users who would like to use GUI interface (**ubuntu**)
 ```bash
 sudo apt-get install libgtk2.0-dev
 ```
@@ -26,6 +26,13 @@ install.packages("RGtk2")
 install.packages("gWidgetsRGtk2")
 install.packages("rsgcc")
 ```
+- For users who would like to use GUI interface (**MAC OS X**)
+**Step 1:** install R package [RGtk2](https://gist.github.com/sebkopf/9405675)
+**Step 2:**
+```R
+install.packages("rsgcc")
+```
+
 ## Quickly start
 ```R
 library(rsgcc)
