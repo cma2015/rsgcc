@@ -26,8 +26,16 @@ install.packages("RGtk2")
 install.packages("gWidgetsRGtk2")
 install.packages("rsgcc")
 ```
-## How to use
-Please refer https://github.com/cma2015/rsgcc/blob/master/rsgcc.pdf for details about each function.
+## Quickly start
+```R
+library(rsgcc)
+# calculat Gini correlation of two genes
+data(rsgcc) #A gene expression matrix which contains 100 genes and 13 samples.
+res <- cor.pair(idxvec = c(1,3), GEMatrix = rnaseq, rowORcol = "row", cormethod = "GCC")
+res
+```
+**Note:** For more details about this package, please refer to https://github.com/cma2015/rsgcc/blob/master/rsgcc.pdf
+
 
 ## Citation
 Ma, Chuang, and Xiangfeng Wang. "[**Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis.**](http://www.plantphysiol.org/content/early/2012/07/13/pp.112.201962.short)" Plant physiology (2012): pp-112.
