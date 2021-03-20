@@ -7,7 +7,7 @@ Author: Chuang Ma, Xiangfeng Wang
 Maintainer: Chuang Ma <chuangma2006@gmail.com>
 URL: http://www.cmbb.arizona.edu/
 Depends: R (>= 2.15.1), biwt, fBasics, grDevices, gplots,
-        gWidgets, minerva, parmigene, stringr, snowfall
+        minerva, parmigene, stringr, snowfall
 Suggests: bigmemory, ctc
 Description: This package provides functions for calculating
         associations between two genes with five correlation
