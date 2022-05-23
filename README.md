@@ -36,7 +36,7 @@ install.packages("rsgcc")
 ## Quickly start
 ```R
 library(rsgcc)
-# calculat Gini correlation of two genes
+# calculate Gini correlation of two genes
 data(rsgcc) #A gene expression matrix which contains 100 genes and 13 samples.
 res <- cor.pair(idxvec = c(1,3), GEMatrix = rnaseq, rowORcol = "row", cormethod = "GCC")
 res
