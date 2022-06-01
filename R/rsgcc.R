@@ -168,9 +168,9 @@ onegcc <- function(x, y) {
   if(!is.vector(idxvec) | length(idxvec) != 2) {
     stop("Error: idxvec must be a vector with two elements indicating the indexs(rows) in GEMatrix")
   }
-  if( class(GEMatrix) != "matrix" ) {
-    stop("Error: GEMatrix should be a numeric data matrix")
-  }
+#   if( class(GEMatrix) != "matrix" ) {
+#     stop("Error: GEMatrix should be a numeric data matrix")
+#   }
 
   if( rowORcol == "row" ) {
     x1 <- GEMatrix[idxvec[1],]
